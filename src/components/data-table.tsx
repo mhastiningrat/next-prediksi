@@ -235,7 +235,7 @@ const columns: ColumnDef<z.infer<typeof schema>>[] = [
     //   ),
     // },
     {
-        accessorKey: "rata_rata_penggunaan",
+        accessorKey: "total_transaksi",
         header: () => (
             <div className="w-full text-right">Jumlah Pencairan</div>
         ),
